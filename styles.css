@@ -1,0 +1,129 @@
+/*Zona de recursos*/
+@font-face {
+    font-family: 'KC';
+    src: url('recursos/Font/Cheese.ttf') format('truetype');
+}
+
+.plantilla {
+    background: linear-gradient(270deg, #bb476a, #aa8594);
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.textModifi {
+    font-family: 'KC';
+    background: linear-gradient(180deg, #000000, #271f1f, #000000);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*Zona Inicial*/
+body {
+    background: linear-gradient(135deg, #8d416b, #513255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bgnav {
+    background: linear-gradient(155deg, #c09ab3, #3ff8d0);
+    position: sticky;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+.yoimg {
+    width: 30%;
+}
+
+.container-rrss {
+    display: flex;
+    justify-content: center;
+}
+
+.iconrrss {
+    width: 3em;
+    transition: transform 0.5s ease;
+}
+
+.iconrrss:hover {
+    transform: translateY(-0.7em);
+
+}
+
+/*Zona Habilidades*/
+.textModifi {
+    font-family: 'KC';
+}
+
+.iconcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition: transform 0.5s ease;
+}
+
+.iconcontainer:hover {
+    transform: translateY(-1em);
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+}
+
+/*Zona proyectos*/
+.card:hover {
+    border: 2px solid black;
+}
+
+.arrow {
+    width: 4%;
+    height: 4%;
+}
+
+/*form*/
+
+.enviado {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Zona responsiva*/
+
+@media (max-width: 425px) {
+
+    .yoimg {
+        margin-top: 16%;
+        width: 55%;
+    }
+
+    .container-rrss {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .iconcontainer {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+    }
+
+    .skill {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        gap: 50px;
+    }
+}

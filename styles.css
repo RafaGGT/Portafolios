@@ -53,8 +53,13 @@ body {
 }
 
 /*Zona Habilidades*/
-.textModifi {
-    font-family: 'KC';
+.skill {
+    display: flex;
+    justify-content: center;
+}
+
+.progress-bar {
+    width: 0%;
 }
 
 .iconcontainer {
@@ -71,10 +76,11 @@ body {
     transform: translateY(-1em);
 }
 
-.skill {
-    display: flex;
-    justify-content: center;
+.iconcontainer:active {
+    transform: scale(0.8);
 }
+
+
 
 /*Zona proyectos*/
 .card:hover {

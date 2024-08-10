@@ -25,7 +25,8 @@ let animacion = document.querySelector(".inicio");
 let skills = document.querySelectorAll(".tecIcon");
 let title = document.querySelector(".skill-text");
 let bar = document.querySelector(".progress-bar");
-let number = document.getElementById("porciento")
+let number = document.getElementById("porciento");
+
 
 let skillSettings = {
     "HTML": { width: "100%", background: "linear-gradient(0deg, #e44d26, #f16529, #f4f4f4)" },

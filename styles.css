@@ -11,7 +11,7 @@
 
 .textModifi {
     font-family: 'KC';
-    background: linear-gradient(180deg, #000000, #271f1f, #000000);
+    background: linear-gradient(180deg, #000000, #352727, #612d4b);
     color: transparent;
     -webkit-background-clip: text;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .bgnav {
-    background: linear-gradient(155deg, #c09ab3, #3ff8d0);
+    background: linear-gradient(155deg, #c09ab3, #333233);
     position: sticky;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
